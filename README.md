@@ -31,6 +31,14 @@ Mettre en place un mini réseau d’entreprise avec :
 - Le routeur utilise le principe **Router-on-a-Stick**
 - DHCP centralisé sur le routeur
 
+  | VLAN    | Usage    | Réseau           | Passerelle   |
+| ------- | -------- | ---------------- | ------------ |
+| VLAN 1  | VoIP     | 192.168.0.0 /24  | 192.168.0.1  |
+| VLAN 10 | Wi-Fi    | 192.168.10.0 /24 | 192.168.10.1 |
+| VLAN 20 | PC fixes | 192.168.20.0 /24 | 192.168.20.1 |
+| VLAN 30 | Admin    | 192.168.30.0 /24 | 192.168.30.1 |
+
+
 ## Tests effectués
 - Ping entre machines du même VLAN
 - Ping inter-VLAN
