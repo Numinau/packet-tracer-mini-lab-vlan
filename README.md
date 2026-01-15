@@ -1,4 +1,4 @@
-# packet-tracer-mini-lab-vlan
+# Cisco packet-tracer-mini-lab-vlan
 Packet Tracer – VLAN, Trunk, DHCP, Router-on-a-Stick
 # MiniLab Packet Tracer – VLAN & Inter-VLAN Routing
 
