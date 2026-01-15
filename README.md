@@ -29,7 +29,7 @@ Mettre en place un mini réseau d’entreprise avec :
 ## Architecture
 
 
-![Network topology](Dessin de mon network 16_77_32.png)
+![Network topology](Dessin_de_mon_network_16_77_32.png)
 - Les switchs sont interconnectés en **trunk 802.1Q**
 - Le routeur utilise le principe **Router-on-a-Stick**
 - DHCP centralisé sur le routeur
