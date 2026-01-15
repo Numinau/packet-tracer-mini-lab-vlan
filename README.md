@@ -28,6 +28,8 @@ Mettre en place un mini réseau d’entreprise avec :
 
 ## Architecture
 
+
+![Network topology](Dessin de mon network 16_77_32.png)
 - Les switchs sont interconnectés en **trunk 802.1Q**
 - Le routeur utilise le principe **Router-on-a-Stick**
 - DHCP centralisé sur le routeur
@@ -39,12 +41,10 @@ Mettre en place un mini réseau d’entreprise avec :
 | VLAN 20 | PC fixes | 192.168.20.0 /24 | 192.168.20.1 |
 | VLAN 30 | Admin    | 192.168.30.0 /24 | 192.168.30.1 |
 
-
 ## Tests effectués
 - Ping entre machines du même VLAN
 - Ping inter-VLAN
 - Ping vers les passerelles VLAN
-
 
 Tous les tests sont concluants.
 
