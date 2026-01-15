@@ -9,7 +9,7 @@ Mettre en place un mini réseau d’entreprise avec :
 - serveur DHCP sur routeur
 - tests de connectivité
 
-## 🧰 Matériel utilisé
+## Matériel utilisé
 - 1 routeur Cisco 1941
 - 3 switch Cisco 2960
 - 3 points d’accès Wi-Fi
@@ -17,7 +17,7 @@ Mettre en place un mini réseau d’entreprise avec :
 - 3 PC portables
 - 3 téléphones IP Cisco 7960
 
-## 🗂️ VLAN configurés
+## VLAN configurés
 
 | VLAN | Usage | Réseau |
 |----|------|-------|
@@ -26,19 +26,19 @@ Mettre en place un mini réseau d’entreprise avec :
 | 20 | PC fixes | 192.168.20.0/24 |
 | 30 | Administration | 192.168.30.0/24 |
 
-## 🔗 Architecture
+## Architecture
 - Les switchs sont interconnectés en **trunk 802.1Q**
 - Le routeur utilise le principe **Router-on-a-Stick**
 - DHCP centralisé sur le routeur
 
-## 🧪 Tests effectués
+## Tests effectués
 - Ping entre machines du même VLAN
 - Ping inter-VLAN
 - Ping vers les passerelles VLAN
 
 Tous les tests sont concluants.
 
-## 📁 Contenu du dépôt
+## Contenu du dépôt
 - Fichier Packet Tracer (.pkt)
 - Configurations routeur et switchs
 - Captures d’écran des tests
