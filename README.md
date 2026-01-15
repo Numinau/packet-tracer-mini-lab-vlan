@@ -27,6 +27,7 @@ Mettre en place un mini réseau d’entreprise avec :
 | 30 | Administration | 192.168.30.0/24 |
 
 ## Architecture
+![Network topology](Network%20typologie%20disigne.png)
 - Les switchs sont interconnectés en **trunk 802.1Q**
 - Le routeur utilise le principe **Router-on-a-Stick**
 - DHCP centralisé sur le routeur
