@@ -1,6 +1,6 @@
-# Cisco packet-tracer-mini-lab-vlan
-Packet Tracer – VLAN, Trunk, DHCP, Router-on-a-Stick
-# MiniLab Packet Tracer – VLAN & Inter-VLAN Routing
+#MiniLab Packet Tracer – VLAN & Inter-VLAN Routing
+# 
+Cisco Packet Tracer – VLAN, Trunk, DHCP, Router-on-a-Stick
 
 ## Objectif
 Mettre en place un mini réseau d’entreprise avec :
