@@ -1,0 +1,26 @@
+
+Router>enable
+Router#show ru
+Router#show running-config 
+Building configuration...
+
+Current configuration : 1538 bytes
+!
+version 15.1
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname Router
+!
+!
+!
+!
+ip dhcp excluded-address 192.168.0.9
+ip dhcp excluded-address 192.168.10.1 192.168.10.9
+ip dhcp excluded-address 192.168.20.1 192.168.20.9
+ip dhcp excluded-address 192.168.30.1 192.168.30.9
+!
+ip dhcp pool VLAN1_VOIP
+ network 192.168.0.0 255.255.255.0
+ default-router 192.168.0.1

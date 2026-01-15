@@ -1,0 +1,30 @@
+Switch>show running configuration
+            ^
+% Invalid input detected at '^' marker.
+	
+Switch>enable
+Switch#show running-con
+Switch#show running-config 
+Building configuration...
+
+Current configuration : 1476 bytes
+!
+version 12.2
+no service timestamps log datetime msec
+no service timestamps debug datetime msec
+no service password-encryption
+!
+hostname Switch
+!
+!
+!
+!
+!
+spanning-tree mode pvst
+!
+interface FastEthernet0/1
+ switchport trunk allowed vlan 1,10,20,30
+ switchport mode trunk
+!
+interface FastEthernet0/2
+ --More-- 
