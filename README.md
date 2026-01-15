@@ -1,5 +1,5 @@
 # packet-tracer-mini-lab-vlan
-MiniLab Packet Tracer – VLAN, Trunk, DHCP, Router-on-a-Stick
+Packet Tracer – VLAN, Trunk, DHCP, Router-on-a-Stick
 # MiniLab Packet Tracer – VLAN & Inter-VLAN Routing
 
 ## Objectif
